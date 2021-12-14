@@ -5,7 +5,8 @@ import rest.TrelloRestClient;
 
 public class TrelloApiStepDefs {
     TrelloRestClient trelloRestClient = new TrelloRestClient();
-    @When(" create a new Board")
+
+    @When("I create a new board")
     public void iCreateANewBoard(){
         trelloRestClient.sendCreateBoardRequest();
     }
