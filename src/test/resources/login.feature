@@ -2,8 +2,8 @@ Feature: As registered user
   I want to login to the system with my credentials
   So that I can have access to store
 
-  Scenario: Property File check
-    Given User is logged in on Login Page
+#  Scenario: Property File check
+#    Given User is logged in on Login Page
 
   @smoke
   Scenario:[ENUM] Store page is displayed after successful login

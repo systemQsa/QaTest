@@ -19,7 +19,7 @@ public class AbstractBasePage {
     }
 
     public WebElement waitForVisibilityOfElement(WebElement locator) {
-        return new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(locator));
+        return new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(locator));
     }
 
     public WebElement findElementBy(By by) {
